@@ -1,13 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
+import TextBox from './Src/Component/TextBox'
 
-import Todo from './Src/Component/TodoList/Todo'
 
 const App = () => {
   return (
-    <View>
-   <Todo/>
-    </View>
+     <TextBox/>
+     
   )
 }
 
